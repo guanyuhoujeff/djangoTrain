@@ -2,6 +2,9 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from .models import Post
 import datetime
+
+
+
 # Create your views here.
 
 
@@ -21,3 +24,6 @@ def charts(request):
 
 def tables(request):
     return render(request, 'tables.html')
+
+
+
